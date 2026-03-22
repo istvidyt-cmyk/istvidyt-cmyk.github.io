@@ -1,0 +1,63 @@
+header, footer {
+  background-color: #9debf5;
+  padding: 10px;
+}
+
+main {
+  padding: 10px;
+  background-color: silver;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.post img {
+  margin: 20px;
+}
+
+.footer-columns {
+  display: flex;
+}
+
+.footer-column {
+  flex: 50%;
+  margin: 20px;
+}
+#menu1{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+}
+#menu1 ul{
+   position: relative;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: auto;
+  list-style: none;
+}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Gveret+Levin&display=swap');
+</style>
+h1, h2, h3, h4, h5 {
+  front-family: 'Bitcount Grid Double Ink', sans-serif;
+  front-weight: 600;
+}
+p {
+  front-family: 'Roboto', sans-serif;
+  front-weight: 300;  
+}
+a {
+  front-family: 'Bitcount Grid Double Ink', sans-serif;
+  front-weight: 600;
+  letter-spacing: 2px;
+}
